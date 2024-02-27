@@ -18,7 +18,7 @@ export default {
       secondary: "#19376d",
       white: "#fff",
       dark: "#0b2447",
-      bg: "#04152d",
+      bg: { DEFAULT: "#04152d", light: "rgba(12, 12, 12, 0.6);" },
     },
     fontFamily: {
       sans: ["Inter", ...defaultTheme.fontFamily.sans],
