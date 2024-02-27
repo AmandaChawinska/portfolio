@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Frontend developer",
+    "organisation": "GQ Group",
+    "startDate": "Dec, 2022",
+    "endDate": "Present",
+    "experiences": [
+      "Creating custom web pages based on a design in Adobe Xd.",
+      "Corrections on existing pages.",
+      "Cooperation with graphic designers and project manager.",
+      "Code review.",
+      "Manual testing."
+    ],
+    "imageSrc": "history/gq.png"
+  }
+]
