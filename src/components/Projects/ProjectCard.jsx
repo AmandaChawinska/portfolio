@@ -6,11 +6,15 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.projectCard}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className="mb-6"
-      />
+      <div className=" mb-6 overflow-hidden rounded-md ">
+        {" "}
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Image of ${title}`}
+          className="w-full hover:scale-110"
+        />
+      </div>
+
       <h3 className="text-xl font-bold">{title}</h3>
       <p className="mt-2 text-2xl">{description}</p>
       <ul className=" mt-4 flex flex-wrap gap-4">
@@ -25,7 +29,7 @@ export const ProjectCard = ({
           );
         })}
       </ul>
-      <div className=" mt-7 flex justify-around">
+      <div className=" mt-7 flex flex-wrap justify-around gap-5">
         <a href={demo} className={styles.link}>
           Demo
         </a>
