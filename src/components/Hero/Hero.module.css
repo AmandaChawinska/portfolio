@@ -7,17 +7,17 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 
-  @apply mb-8 text-7xl font-black;
+  @apply mb-8 mt-3 text-7xl font-black;
 }
 
 .description {
-  @apply mb-13 text-3xl;
+  @apply mb-13 max-w-[650px] text-xl leading-[1.4];
 }
 
 .contactBtn {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 
-  @apply bg-primary rounded-[100px] px-7 py-4 text-3xl font-semibold no-underline;
+  @apply rounded-md bg-primary px-7 py-4 text-3xl font-semibold no-underline;
 }
 
 .heroImg {
@@ -26,7 +26,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 
-  @apply z-[1] max-h-[600px] w-1/2 rounded-[50%];
+  @apply z-[1] max-h-[600px] w-[132px] rounded-[50%] lg:w-[30vw];
 }
 
 @keyframes floating {
@@ -45,12 +45,12 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
 
-  @apply absolute left-[-10vw] top-[-128px] z-0 h-[50vw] w-[50vw] min-w-[350px] max-w-[350px] rounded-[764px];
+  @apply absolute left-0 top-[-128px] z-0 h-[16vw] w-[50vw] min-w-[350px] max-w-[350px] rounded-[764px];
 }
 
 .bottomBlur {
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
 
-  @apply absolute right-[-25vw] top-[246px] z-0 h-[50vw] w-[70vw] min-w-[250px] max-w-[350px] rounded-[764px];
+  @apply absolute right-0 top-0 z-0 h-[20vw] w-[70vw] min-w-[250px] max-w-[350px] rounded-[764px];
 }

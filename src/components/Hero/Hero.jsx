@@ -3,17 +3,22 @@ import styles from "./Hero.module.css";
 
 export const Hero = () => {
   return (
-    <section className="container relative z-[1] mt-12 flex items-center justify-between gap-7">
+    <header className="relative z-[1] mt-12 flex items-center justify-around gap-7">
       <img
         src={getImageUrl("hero/profile.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
       <div className="z-[1] flex flex-col items-start">
-        <h1 className={styles.title}>Hi, I&apos;m Amanda</h1>
+        <div className="text-xs font-bold uppercase">This is</div>
+        <h1 className={styles.title}>Amanda Chawinska</h1>
         <p className={styles.description}>
-          I&apos;m a front end developer with 1 year of experience using React
-          and NodeJS. Reach out if you&apos;d like to learn more!
+          I have been programming since 2020. I have more than one year
+          experience in commercial projects. I actively engage in projects and
+          try to deliver the best quality code possible. I am constantly
+          educating myself more towards frontend, but I am also considering the
+          fullstack path. My favorite technologies are React and Tailwind CSS,
+          so I write projects with a component approach, even in Wordpress.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Hire Me
@@ -21,6 +26,6 @@ export const Hero = () => {
       </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
-    </section>
+    </header>
   );
 };

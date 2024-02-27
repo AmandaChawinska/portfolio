@@ -12,7 +12,7 @@ export const Contact = () => {
           </a>
         </div>
         <p className="m-0 max-w-[670px] text-sm leading-[1.4] lg:text-lg">
-          I&apos;m always open to nwe projects whenever I have the time. If you
+          I&apos;m always open to new projects whenever I have the time. If you
           have a&nbsp; website, dashboard or mobile app in mind and need some
           help to&nbsp; make your ideas come to life, feel free to contact me.
         </p>
