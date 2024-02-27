@@ -1,0 +1,5 @@
+.historyItem {
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+
+  @apply flex items-center gap-8 rounded-[10px] p-6;
+}

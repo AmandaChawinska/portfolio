@@ -63,6 +63,9 @@ export default {
         90: "90",
         100: "100",
       },
+      listStyleType: {
+        disclosureClosed: "disclosure-closed",
+      },
       // gridTemplateColumns: {
 
       // },
