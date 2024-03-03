@@ -21,6 +21,7 @@ export const Hero = () => {
           so I write projects with a component approach, even in Wordpress.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+          <img src={getImageUrl("hero/emailIcon.png")} alt="Email icon" />
           Hire Me
         </a>
       </div>
