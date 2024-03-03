@@ -8,20 +8,52 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "Scss",
+    "imageSrc": "skills/sass.png"
+  },
+  {
+    "title": "Bootstrap 5",
+    "imageSrc": "skills/bootstrap.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Styled-components",
+    "imageSrc": "skills/styled-components.svg"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "Alpine.js",
+    "imageSrc": "skills/Alpine.js.png"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Wordpress",
+    "imageSrc": "skills/WordPress.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "ACF Pro",
+    "imageSrc": "skills/acf-logo.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "PHP (basic)",
+    "imageSrc": "skills/PHP.png"
+  },
+  {
+    "title": "AdobeXD",
+    "imageSrc": "skills/AdobeXD.png"
+  },
+  {
+    "title": "Canva",
+    "imageSrc": "skills/Canva.png"
   },
   {
     "title": "Figma",

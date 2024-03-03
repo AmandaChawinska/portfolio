@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 export const Skills = () => {
   return (
     <section
-      className="bg-bg-light relative z-[1] mt-30 rounded-lg p-10"
+      className="relative z-[1] mt-30 rounded-lg bg-bg-light p-10"
       id="skills"
     >
       <h2 className=" mb-9 text-4xl font-bold uppercase">
@@ -14,7 +14,7 @@ export const Skills = () => {
         {skills.map((skill, id) => {
           return (
             <div key={id} className="flex flex-col items-center gap-3">
-              <div className="flex size-[120px] items-center justify-center rounded-full bg-secondary">
+              <div className="bg-bg-lightest flex size-[120px] items-center justify-center rounded-full">
                 <img
                   className="w-[75px]"
                   src={getImageUrl(skill.imageSrc)}

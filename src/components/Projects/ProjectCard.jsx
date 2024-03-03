@@ -11,7 +11,7 @@ export const ProjectCard = ({
         <img
           src={getImageUrl(imageSrc)}
           alt={`Image of ${title}`}
-          className="w-full hover:scale-110"
+          className="min-h-[248px] w-full hover:scale-110"
         />
       </div>
 
@@ -30,12 +30,16 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className=" mt-7 flex flex-wrap justify-around gap-5">
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+        {demo && (
+          <a href={demo} className={styles.link} target="_blank">
+            Demo
+          </a>
+        )}
+        {source && (
+          <a href={source} className={styles.link} target="_blank">
+            Source
+          </a>
+        )}
       </div>
     </div>
   );
