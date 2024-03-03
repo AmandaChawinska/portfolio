@@ -1,26 +1,114 @@
 [
   {
-    "title": "Project A",
+    "title": "Willow",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["HTML", "Tailwind CSS", "Vite"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/AmandaChawinska/willow-vite-tw"
   },
   {
-    "title": "Project B",
+    "title": "Slaider",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["HTML", "CSS", "Java Script"],
+    "demo": "https://amandachawinska.github.io/slaider/",
+    "source": "https://github.com/AmandaChawinska/slaider"
   },
   {
-    "title": "Project C",
+    "title": "List task",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  }
+    "skills": ["HTML", "CSS", "Java script", "BEM convention"],
+    "demo": "https://amandachawinska.github.io/List-task/",
+    "source": "https://github.com/AmandaChawinska/List-task"
+  },
+    {
+    "title": "List task react",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["HTML", "styled-components", "React", "React-redux", "React-saga", "React-router"],
+    "demo": "https://amandachawinska.github.io/List-task-react/#/zadania",
+    "source": "https://github.com/AmandaChawinska/List-task-react"
+  },
+      {
+    "title": "Currency converter",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "styled-components", "React"],
+    "demo": "https://amandachawinska.github.io/currency-converter-in-React/",
+    "source": "https://github.com/AmandaChawinska/currency-converter-in-React"
+  },
+        {
+    "title": "Movies browser",
+    "imageSrc": "projects/project.png",
+    "description": "Movies browser application was created as a final project in the course "Frontend Developer from scratch" led by Youcode. The app is used to browse and search for movies, actors and film crew. Additionally, it is possible to change the background color, as well as a choice of languages. The application also allows you to quickly return to the top of the page using the "arrow".",
+    "skills": ["HTML", "styled-components", "React", "React-redux", "React-saga", "React-router"],
+    "demo": "https://wknott.github.io/movies-browser/#/movies",
+    "source": "https://github.com/wknott/movies-browser"
+  },
+          {
+    "title": "One page - eurocash",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://www.grupaeurocash.pl/aplikacja",
+    "source": ""
+  },
+            {
+    "title": "Frostpunk2",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Bootstrap 5", "Wordpress", "ACF Pro", "Java script"],
+    "demo": "https://frostpunk2.com/",
+    "source": ""
+  },
+           {
+    "title": "Lerg",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Bootstrap 5", "Wordpress", "ACF Pro", "Java script"],
+    "demo": "https://www.lerg.pl/",
+    "source": ""
+  },
+             {
+    "title": "Czas na młodych",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Tailwind CSS", "Wordpress", "ACF Pro", "Java script", "Alpine.js"],
+    "demo": "https://terazmy.eu/",
+    "source": ""
+  },
+               {
+    "title": "Apetigo",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Tailwind CSS", "Wordpress", "ACF Pro", "Java script", "Alpine.js"],
+    "demo": "https://qr.apetigo.pl/",
+    "source": ""
+  },
+                 {
+    "title": "Apetigo - tips",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Tailwind CSS", "Wordpress", "ACF Pro", "Java script", "Alpine.js"],
+    "demo": "https://tips.apetigo.pl/",
+    "source": ""
+  },
+                   {
+    "title": "Balt-invest",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Tailwind CSS", "Wordpress", "ACF Pro", "Java script", "Alpine.js"],
+    "demo": "",
+    "source": ""
+  },
+                     {
+    "title": "Knhp",
+    "imageSrc": "projects/project.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": ["HTML", "CSS", "Tailwind CSS", "Wordpress", "ACF Pro", "Java script", "Alpine.js"],
+    "demo": "",
+    "source": ""
+  },
 ]
