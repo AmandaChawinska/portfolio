@@ -11,7 +11,7 @@ export const ProjectCard = ({
         <img
           src={getImageUrl(imageSrc)}
           alt={`Image of ${title}`}
-          className="min-h-[248px] w-full hover:scale-110"
+          className="max-h-[248px] min-h-[248px] w-full hover:scale-110"
         />
       </div>
 
