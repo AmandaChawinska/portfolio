@@ -111,7 +111,22 @@
     "demo": "https://terazmy.eu/"
   },
   {
-    "title": "Apetigo",
+    "title": "Apetigo - landing page",
+    "imageSrc": "projects/apetigo-landingpage.png",
+    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Wordpress",
+      "ACF Pro",
+      "Java script",
+      "Alpine.js"
+    ],
+    "demo": "https://apetigo.pl"
+  },
+  {
+    "title": "Qr apetigo",
     "imageSrc": "projects/apetigo.png",
     "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
     "skills": [
