@@ -113,7 +113,7 @@
   {
     "title": "Apetigo - landing page",
     "imageSrc": "projects/apetigo-landingpage.png",
-    "description": "The website contains form to convert currency. There are available all currencies from European Central Bank.",
+    "description": "Landing page for Apetigo.",
     "skills": [
       "HTML",
       "CSS",
